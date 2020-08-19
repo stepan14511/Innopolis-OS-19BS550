@@ -1,0 +1,16 @@
+   60  cd ..
+   61  ls -l
+   62  cd Programming/
+   63  ls -l
+   64  cd ..
+   65  cd Documents
+   66  ls -l
+   67  cd Programming
+   68  cd OS
+   69  ls -l
+   70  ./ex1.sh
+   71  mkdir week1
+   72  cd week1
+   73  touch ex1.txt
+   74  ls -r /usr/bin | grep gcc > ex1.txt
+   75  touch ex2.txt
