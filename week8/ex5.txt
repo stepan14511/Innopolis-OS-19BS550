@@ -1,0 +1,6 @@
+Physical memory - the memory, we have in our RAM plates. Physically.
+Virtual memory - the abstraction, which we use to make our work easier. First of all we need it to hide the usage of swap from a process. 
+The point of swap is to use it when we does not have needed amount of RAM, which can occure independent from a process itself.
+By virtual memory we make a process think, that it uses RAM physically, even when it is using swap.
+
+Virtual address - the address, which is used by a process. Then, OS recalculate it to physical address, where the data is really stored.

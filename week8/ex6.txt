@@ -1,0 +1,4 @@
+8KB = 2^13.
+Our virtual address space is actually 2^16.
+As we have single-level linear page level, we need:
+2^16/2^13 = 8 entries.
