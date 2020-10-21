@@ -1,0 +1,8 @@
+-rw-r--r--  1 stepankuznetsov  staff  0 Oct 21 15:49 _ex3.txt
+-rwxr--r--  1 stepankuznetsov  staff  0 Oct 21 15:49 _ex3.txt
+-rwxr--rwx  1 stepankuznetsov  staff  0 Oct 21 15:49 _ex3.txt
+-rwxrwxrwx  1 stepankuznetsov  staff  0 Oct 21 15:49 _ex3.txt
+
+// 660 = -110110000 = -rw-rw---- = rw permissions for owner and group.
+// 775 = -111111101 = -rwxrwxr-x = rwx for owner and group + rx for others.
+// 777 = -111111111 = -rwxrwxrwx = rwx for owner, group and others.
